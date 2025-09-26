@@ -22,6 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="monetag" content="214e6bc6cc5675096a3ea9127ecaa230" />
+        <script src="https://fpyf8.com/88/tag.min.js" data-zone="173803" async data-cfasync="false" />
       </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         <Suspense fallback={null}>{children}</Suspense>
