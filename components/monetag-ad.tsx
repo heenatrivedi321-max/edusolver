@@ -19,6 +19,7 @@ export function MonetagAd({ className = "", size = "banner" }: MonetagAdProps) {
         className={`bg-muted/30 border border-dashed border-muted-foreground/30 rounded-lg flex items-center justify-center ${sizeClasses[size]}`}
       >
         <span className="text-sm text-muted-foreground">Monetag Ad Space</span>
+        https://otieu.com/4/9934786
       </div>
     </div>
   )
