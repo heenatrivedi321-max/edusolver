@@ -21,11 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1164522385347849"
-          crossOrigin="anonymous"
-        />
+        <meta name="monetag" content="214e6bc6cc5675096a3ea9127ecaa230" />
       </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         <Suspense fallback={null}>{children}</Suspense>

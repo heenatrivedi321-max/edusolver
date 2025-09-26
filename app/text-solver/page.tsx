@@ -9,7 +9,7 @@ import { Badge } from "@/components/ui/badge"
 import { Separator } from "@/components/ui/separator"
 import { Calculator, ArrowLeft, Loader2, BookOpen, Lightbulb, Copy, Check } from "lucide-react"
 import { useToast } from "@/hooks/use-toast"
-import { GoogleAd } from "@/components/google-ad"
+import { MonetagAd } from "@/components/monetag-ad"
 
 interface Solution {
   method: string
@@ -238,7 +238,7 @@ export default function TextSolverPage() {
           </Card>
 
           {/* Ad Space */}
-          <GoogleAd adSlot="2468135790" adFormat="rectangle" />
+          <MonetagAd size="rectangle" />
 
           {/* Solutions Section */}
           {solutions.length > 0 && (

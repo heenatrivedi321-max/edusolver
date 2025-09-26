@@ -2,7 +2,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Calculator, Camera, Zap, BookOpen } from "lucide-react"
-import { GoogleAd } from "@/components/google-ad"
+import { MonetagAd } from "@/components/monetag-ad"
 
 export default function HomePage() {
   return (
@@ -76,8 +76,8 @@ export default function HomePage() {
           </div>
 
           <div className="mt-12 space-y-6">
-            <GoogleAd adSlot="1234567890" adFormat="rectangle" className="max-w-2xl mx-auto" />
-            <GoogleAd adSlot="0987654321" adFormat="horizontal" className="max-w-4xl mx-auto" />
+            <MonetagAd size="rectangle" className="max-w-2xl mx-auto" />
+            <MonetagAd size="leaderboard" className="max-w-4xl mx-auto" />
           </div>
 
           {/* Features */}
