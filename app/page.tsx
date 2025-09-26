@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Calculator, Camera, Zap, BookOpen } from "lucide-react"
 import { MonetagAd } from "@/components/monetag-ad"
+import { InstallButton } from "@/components/install-button"
 
 export default function HomePage() {
   return (
@@ -36,6 +37,10 @@ export default function HomePage() {
               Get step-by-step solutions and alternative methods for any mathematical equation or science problem using
               advanced AI.
             </p>
+          </div>
+
+          <div className="flex justify-center">
+            <InstallButton />
           </div>
 
           {/* Input Options */}

@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   description:
     "Solve mathematical equations and science problems instantly with AI. Get step-by-step solutions and alternative methods.",
   generator: "v0.app",
+  manifest: "/manifest.json",
+  themeColor: "#3b82f6",
+  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
 }
 
 export default function RootLayout({
@@ -20,10 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <meta name="monetag" content="214e6bc6cc5675096a3ea9127ecaa230" />
-        <script src="https://fpyf8.com/88/tag.min.js" data-zone="173803" async data-cfasync="false" />
-      </head>
+      <head></head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         <Suspense fallback={null}>{children}</Suspense>
         <Analytics />
