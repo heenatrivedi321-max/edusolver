@@ -23,8 +23,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head></head>
-<script>(function(s){s.dataset.zone='9932945',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+      <head>
+        <script src="https://vaugroar.com/act/files/tag.min.js?z=9937915" data-cfasync="false" async></script>
+      </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         <Suspense fallback={null}>{children}</Suspense>
         <Analytics />
