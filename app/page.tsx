@@ -39,10 +39,6 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="flex justify-center">
-            <InstallButton />
-          </div>
-
           {/* Input Options */}
           <div className="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
             <Link href="/text-solver">
@@ -111,6 +107,18 @@ export default function HomePage() {
           </div>
         </div>
       </main>
+
+      <footer className="border-t border-border bg-card/30 backdrop-blur-sm py-8">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col items-center justify-center space-y-4">
+            <div className="text-center space-y-2">
+              <h3 className="text-lg font-semibold text-foreground">Get EduSolver on Your Device</h3>
+              <p className="text-sm text-muted-foreground">Install our app for offline access and faster performance</p>
+            </div>
+            <InstallButton />
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }
